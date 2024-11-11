@@ -27,11 +27,11 @@ An app that uses Hugging Face AI models to generate text from an image, which th
 
 Execution is divided into 3 parts:
 - **Image to text:**
-  an image-to-text transformer model ([Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)) is used to generate a text scenario based on the on the AI understanding of the image context
+  an image-to-text transformer model  is used to generate a text scenario based on the on the AI understanding of the image context
 - **Text to story:**
   OpenAI LLM model is prompted to create a short story (50 words: can be adjusted as reqd.) based on the generated scenario. [gpt-3.5-turbo](https://platform.openai.com/docs/models/gpt-3-5)
 - **Story to speech:**
-  a text-to-speech transformer model ([espnet/kan-bayashi_ljspeech_vits](https://huggingface.co/espnet/kan-bayashi_ljspeech_vits)) is used to convert the generated short story into a voice-narrated audio file
+  a text-to-speech transformer model is used to convert the generated short story into a voice-narrated audio file
 - A user interface is built using streamlit to enable uploading the image and playing the audio file
   
 
@@ -72,7 +72,7 @@ You can listen respective audio file of this test image on respective `img-audio
 
 Clone the repository:
 
-`git clone https://github.com/GURPREETKAURJETHRA/Image-to-Speech-GenAI-Tool-Using-LLM.git`
+`git clone [https://github.com/realabrar1/AI-Powered-Image-to-Speech-Storyteller.git](https://github.com/realabrar1/AI-Powered-Image-to-Speech-Storyteller.git)`
 
 Install the required Python packages:
 
@@ -92,9 +92,3 @@ Run the Streamlit app:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
----
-
-#### **If you like this LLM Project do drop ⭐ to this repo and Contributions are welcome! If you have any suggestions for improving this AI Img-Speech Converter, please submit a pull request.💁**
-#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurpreetkaurjethra/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GURPREETKAURJETHRA/)
-
----
